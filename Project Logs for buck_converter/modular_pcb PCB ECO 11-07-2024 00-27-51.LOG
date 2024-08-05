@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=U? Old Footprint=FP-RGE0024J-MFG New Footprint=FP-RGE0024J-IPC_A
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Add Class Member: Failed to add class member : Component L1 Inductor
