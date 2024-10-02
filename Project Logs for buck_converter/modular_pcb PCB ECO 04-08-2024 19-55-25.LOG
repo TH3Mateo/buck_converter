@@ -1,0 +1,12 @@
+Added Component: Designator=CP1(ROUND_SMALL)
+Added Component: Designator=CP2(ROUND_SMALL)
+Added Component: Designator=CP3(ROUND_SMALL)
+Added Component: Designator=CP4(ROUND_SMALL)
+Added Pin To Net: NetName=3V3 Pin=CP1-1
+Added Pin To Net: NetName=NetCP2_1 Pin=CP2-1
+Added Pin To Net: NetName=NetCP3_1 Pin=CP3-1
+Added Pin To Net: NetName=GND Pin=CP4-1
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component CP1 CONNECT_PAD
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component CP2 CONNECT_PAD
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component CP3 CONNECT_PAD
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component CP4 CONNECT_PAD

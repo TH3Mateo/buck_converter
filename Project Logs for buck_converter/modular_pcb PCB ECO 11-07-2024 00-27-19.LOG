@@ -1,0 +1,66 @@
+Added Component: Designator=U?(FP-RGE0024J-MFG)
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=GND Pin=U?-9
+Added Pin To Net: NetName=NetC4_1 Pin=U?-12
+Added Pin To Net: NetName=24V Pin=U?-15
+Added Pin To Net: NetName=VOUT Pin=U?-16
+Added Pin To Net: NetName=VOUT Pin=U?-17
+Added Pin To Net: NetName=GND Pin=U?-18
+Added Pin To Net: NetName=NetR2_1 Pin=U?-19
+Added Pin To Net: NetName=GND Pin=U?-25
+Change Net Name : Old Net Name=24V New Net Name=VIN
+Change Net Name : Old Net Name=GND New Net Name=CS
+Change Net Name : Old Net Name=NetC4_1 New Net Name=SW
+Change Net Name : Old Net Name=NetR2_1 New Net Name=FB
+Change Net Name : Old Net Name=VOUT New Net Name=VCCX
+Added Pin To Net: NetName=COMP Pin=R4-2
+Added Pin To Net: NetName=COMP Pin=U?-20
+Added Net: Name=COMP
+Added Pin To Net: NetName=DITH Pin=C9-2
+Added Pin To Net: NetName=DITH Pin=U?-5
+Added Net: Name=DITH
+Added Pin To Net: NetName=EN Pin=U?-23
+Added Net: Name=EN
+Added Pin To Net: NetName=HB Pin=C4-2
+Added Pin To Net: NetName=HB Pin=D1-2
+Added Pin To Net: NetName=HB Pin=U?-11
+Added Net: Name=HB
+Added Pin To Net: NetName=HO Pin=Q1-1
+Added Pin To Net: NetName=HO Pin=U?-13
+Added Pin To Net: NetName=HO Pin=U?-14
+Added Net: Name=HO
+Added Pin To Net: NetName=LO Pin=Q2-1
+Added Pin To Net: NetName=LO Pin=U?-7
+Added Pin To Net: NetName=LO Pin=U?-8
+Added Net: Name=LO
+Added Pin To Net: NetName=OSC Pin=C11-2
+Added Pin To Net: NetName=OSC Pin=U3-32
+Added Pin To Net: NetName=OSC Pin=U?-2
+Added Pin To Net: NetName=OSC Pin=U?-6
+Added Net: Name=OSC
+Added Pin To Net: NetName=PG Pin=U3-31
+Added Pin To Net: NetName=PG Pin=U?-21
+Added Net: Name=PG
+Added Pin To Net: NetName=RES Pin=C5-2
+Added Pin To Net: NetName=RES Pin=U?-24
+Added Net: Name=RES
+Added Pin To Net: NetName=RT Pin=R5-2
+Added Pin To Net: NetName=RT Pin=U?-4
+Added Net: Name=RT
+Added Pin To Net: NetName=SS Pin=C6-2
+Added Pin To Net: NetName=SS Pin=U?-22
+Added Net: Name=SS
+Added Pin To Net: NetName=VCC Pin=C3-2
+Added Pin To Net: NetName=VCC Pin=D1-1
+Added Pin To Net: NetName=VCC Pin=U?-10
+Added Net: Name=VCC
+Add Class Member: Failed to add class member : Component L1 Inductor
+Added Member To Class: ClassName=only_converter Member=Component U? LM25141QRGERQ1
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_6
+Added Rule: Name=Schematic Supply Nets_7

@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=DEMB Pin=J1-1
+Removed Pin From Net: NetName=DEMB Pin=J1-2
+Removed Pin From Net: NetName=DEMB Pin=J1-3
+Removed Pin From Net: NetName=5V Pin=J1-7
+Removed Member From Class: ClassName=only_converter Member=C1
+Removed Member From Class: ClassName=only_converter Member=C2
+Removed Member From Class: ClassName=only_converter Member=C3
+Removed Member From Class: ClassName=only_converter Member=C6
+Removed Member From Class: ClassName=only_converter Member=C8
+Removed Member From Class: ClassName=BTT_toolhead_expansion Member=C17
+Removed Member From Class: ClassName=BTT_toolhead_expansion Member=J1
+Removed Member From Class: ClassName=only_converter Member=S_PAD8
+Removed Member From Class: ClassName=only_converter Member=S_PAD11
+Removed Member From Class: ClassName=BTT_toolhead_expansion Member=S_PAD13
+Removed Member From Class: ClassName=BTT_toolhead_expansion Member=S_PAD14
+Removed Member From Class: ClassName=only_converter Member=U2
+Added Component: Designator=P1(62201021121)
+Add component (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Mating Length"; Value = "3.81mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.65mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Pitch"; Value = "1.27mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NexarPartId"; Value = "32855586"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "100V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "1.27mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Row Spacing"; Value = "1.27mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100V"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component C4 Capacitor
+Added Member To Class: ClassName=only_converter Member=Component C11 Capacitor
+Added Member To Class: ClassName=only_converter Member=Component C12 Capacitor
+Added Member To Class: ClassName=only_converter Member=Component C13 Capacitor
+Added Member To Class: ClassName=only_converter Member=Component C14 Capacitor
+Added Member To Class: ClassName=only_converter Member=Component C16 Capacitor
+Added Member To Class: ClassName=only_converter Member=Component C18 Capacitor
+Added Member To Class: ClassName=only_converter Member=Component C21 Capacitor
+Added Member To Class: ClassName=only_converter Member=Component C22 Capacitor
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component P1 62201021121
+Added Member To Class: ClassName=only_converter Member=Component Q2 STP80NF55-06
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component R2 Resistor
+Added Member To Class: ClassName=only_converter Member=Component R6 Resistor
+Added Member To Class: ClassName=only_converter Member=Component R7 Resistor
+Added Member To Class: ClassName=only_converter Member=Component R9 Resistor
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component S_PAD2 SOLDER_PAD
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component S_PAD5 SOLDER_PAD
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component S_PAD7 SOLDER_PAD
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component S_PAD9 SOLDER_PAD
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component S_PAD10 SOLDER_PAD
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component S_PAD12 SOLDER_PAD
+Added Member To Class: ClassName=only_converter Member=Component S_PAD15 SOLDER_PAD
+Added Member To Class: ClassName=only_converter Member=Component S_PAD16 SOLDER_PAD
+Added Member To Class: ClassName=BTT_toolhead_expansion Member=Component U1 AMS1117-3.3
+Added Member To Class: ClassName=only_converter Member=Component U3 LM25141QRGERQ1

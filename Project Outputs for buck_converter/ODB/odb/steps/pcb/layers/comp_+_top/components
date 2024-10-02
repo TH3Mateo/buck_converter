@@ -1,0 +1,937 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 13 80.01 93.218 180 N CP4 CONNECT_PAD ;0=1,1=0.0000
+TOP 0 80.01 93.218 180 N 29 59 1
+#
+# CMP 1
+CMP 13 75.184 93.218 180 N CP3 CONNECT_PAD ;0=1,1=0.0000
+TOP 0 75.184 93.218 180 N 1 1 1
+#
+# CMP 2
+CMP 13 77.47 93.218 180 N CP2 CONNECT_PAD ;0=1,1=0.0000
+TOP 0 77.47 93.218 180 N 2 1 1
+#
+# CMP 3
+CMP 13 72.39 93.218 180 N CP1 CONNECT_PAD ;0=1,1=0.0000
+TOP 0 72.39 93.218 180 N 32 14 1
+#
+# CMP 4
+CMP 12 95.25 71.12 180 N R10 Resistor ;0=1,1=0.4500
+PRP DTEMP ''
+PRP SimulationGenericComponent 'True'
+PRP T_REL_LOCAL ''
+PRP TC ''
+PRP TC1 '0'
+PRP TC2 '0'
+PRP TEMP ''
+PRP Value '1K'
+TOP 0 95.8499988 71.12 90 N 21 1 1
+TOP 1 94.64999866 71.12 90 N 17 0 2
+#
+# CMP 5
+CMP 0 88.646 109.601 90 N J1 BTT_header_2x7 ;0=2,1=1.8000
+TOP 0 88.646 109.601 90 N 29 62 1
+TOP 1 86.868 109.601 90 N 29 61 2
+TOP 2 85.09 109.601 90 N 0 37 3
+TOP 3 83.312 109.601 90 N 31 2 4
+TOP 4 81.534 109.601 90 N 5 1 5
+TOP 5 79.756 109.601 90 N 0 36 6
+TOP 6 77.978 109.601 90 N 0 35 7
+TOP 7 77.978 107.823 90 N 0 31 8
+TOP 8 79.756 107.823 90 N 0 32 9
+TOP 9 81.534 107.823 90 N 0 33 10
+TOP 10 83.312 107.823 90 N 4 1 11
+TOP 11 85.09 107.823 90 N 3 1 12
+TOP 12 86.868 107.823 90 N 0 34 13
+TOP 13 88.646 107.823 90 N 29 60 14
+#
+# CMP 6
+CMP 9 59.436 110.744 270 N S_PAD2 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 59.436 110.744 270 N 5 0 1
+#
+# CMP 7
+CMP 11 83.42399876 62.484 0 N R5 Resistor ;0=1,1=0.4500
+PRP DTEMP ''
+PRP SimulationGenericComponent 'True'
+PRP T_REL_LOCAL ''
+PRP TC ''
+PRP TC1 '0'
+PRP TC2 '0'
+PRP TEMP ''
+PRP Value '1K'
+TOP 0 82.77399752 62.484 270 N 6 1 1
+TOP 1 84.07399746 62.484 270 N 12 1 2
+#
+# CMP 8
+CMP 11 94.742 102.362 90 N R2 Resistor ;0=1,1=0.4500
+PRP DTEMP ''
+PRP SimulationGenericComponent 'True'
+PRP T_REL_LOCAL ''
+PRP TC ''
+PRP TC1 '0'
+PRP TC2 '0'
+PRP TEMP ''
+PRP Value '999M'
+TOP 0 94.742 103.01200124 0 N 29 31 1
+TOP 1 94.742 101.7120013 0 N 7 2 2
+#
+# CMP 9
+CMP 7 74.93 53.34 90 N L2 Inductor ;0=1,1=6.5000
+PRP CPAR ''
+PRP DTEMP ''
+PRP Initial_Current ''
+PRP M ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP T_REL_LOCAL ''
+PRP TC1 ''
+PRP TC2 ''
+PRP TEMP ''
+PRP Value '2.2u'
+TOP 0 74.93 58.78999926 0 N 28 0 1
+TOP 1 74.93 47.8899982 0 N 23 0 2
+#
+# CMP 10
+CMP 7 81.28 80.01 0 N L1 Inductor ;0=1,1=6.5000
+PRP CPAR ''
+PRP DTEMP ''
+PRP Initial_Current ''
+PRP M ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP T_REL_LOCAL ''
+PRP TC1 ''
+PRP TC2 ''
+PRP TEMP ''
+PRP Value '2.2u'
+TOP 0 75.83000074 80.01 270 N 30 0 1
+TOP 1 86.7300018 80.01 270 N 8 0 2
+#
+# CMP 11
+CMP 1 93.218 64.77 180 N C25 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '10p'
+TOP 0 93.86800124 64.77 180 N 29 50 1
+TOP 1 92.56799876 64.77 180 N 22 2 2
+#
+# CMP 12
+CMP 3 86.106 49.67400022 90 N C24 Capacitor ;0=1,1=8.0000
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '150u'
+TOP 0 86.106 52.324 0 N 29 39 1
+TOP 1 86.106 47.02400044 0 N 23 1 2
+#
+# CMP 13
+CMP 1 92.583 49.911 90 N C23 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '10u'
+TOP 0 92.583 50.56100124 90 N 29 44 1
+TOP 1 92.583 49.26099876 90 N 23 4 2
+#
+# CMP 14
+CMP 1 91.059 49.911 90 N C22 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '10u'
+TOP 0 91.059 50.56100124 90 N 29 45 1
+TOP 1 91.059 49.26099876 90 N 23 5 2
+#
+# CMP 15
+CMP 2 91.44 84.836 0 N C14 Capacitor ;0=1,1=1.0000
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '10u'
+TOP 0 90.51500058 84.836 0 N 29 47 1
+TOP 1 92.36499942 84.836 0 N 8 2 2
+#
+# CMP 16
+CMP 3 92.964 78.994 270 N C13 Capacitor ;0=1,1=8.0000
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '150u'
+TOP 0 92.964 76.34400022 180 N 29 35 1
+TOP 1 92.964 81.64399978 180 N 8 1 2
+#
+# CMP 17
+CMP 1 72.37499876 78.74 0 N C12 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '470n'
+TOP 0 71.72499752 78.74 0 N 29 37 1
+TOP 1 73.025 78.74 0 N 30 2 2
+#
+# CMP 18
+CMP 2 72.39 80.645 0 N C11 Capacitor ;0=1,1=1.0000
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '10u'
+TOP 0 71.46500058 80.645 0 N 29 36 1
+TOP 1 73.31499942 80.645 0 N 30 1 2
+#
+# CMP 19
+CMP 1 80.264 104.394 270 N C4 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '1p'
+TOP 0 80.264 103.74399876 270 N 32 11 1
+TOP 1 80.264 105.04400124 270 N 29 32 2
+#
+# CMP 20
+CMP 1 93.472 67.818 180 N C20 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '100n'
+TOP 0 94.12200124 67.818 180 N 11 0 1
+TOP 1 92.82199876 67.818 180 N 14 0 2
+#
+# CMP 21
+CMP 1 82.296 68.834 90 N C15 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '1u'
+TOP 0 82.296 69.48400124 90 N 29 38 1
+TOP 1 82.296 68.18399876 90 N 13 2 2
+#
+# CMP 22
+CMP 5 87.884 67.818 90 N U3 LM25141QRGERQ1 ;0=1,1=0.0000
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-40°C'
+TOP 0 89.13400004 69.76924578 90 N 29 41 1
+TOP 1 88.63400104 69.76924578 90 N 17 1 2
+TOP 2 88.1339995 69.76924578 90 N 29 42 3
+TOP 3 87.6340005 69.76924578 90 N 0 30 4
+TOP 4 87.13399896 69.76924578 90 N 17 2 5
+TOP 5 86.63399996 69.76924578 90 N 17 3 6
+TOP 6 85.93275422 69.06800004 90 N 18 0 7
+TOP 7 85.93275422 68.56800104 90 N 18 1 8
+TOP 8 85.93275422 68.0679995 90 N 29 43 9
+TOP 9 85.93275422 67.5680005 90 N 13 3 10
+TOP 10 85.93275422 67.06799896 90 N 20 2 11
+TOP 11 85.93275422 66.56799996 90 N 28 2 12
+TOP 12 86.63399996 65.86675422 90 N 19 0 13
+TOP 13 87.13399896 65.86675422 90 N 19 1 14
+TOP 14 87.6340005 65.86675422 90 N 30 3 15
+TOP 15 88.1339995 65.86675422 90 N 23 2 16
+TOP 16 88.63400104 65.86675422 90 N 23 3 17
+TOP 17 89.13400004 65.86675422 90 N 12 0 18
+TOP 18 89.83524578 66.56799996 90 N 24 1 19
+TOP 19 89.83524578 67.06799896 90 N 22 0 20
+TOP 20 89.83524578 67.5680005 90 N 16 1 21
+TOP 21 89.83524578 68.0679995 90 N 14 1 22
+TOP 22 89.83524578 68.56800104 90 N 21 2 23
+TOP 23 89.83524578 69.06800004 90 N 15 1 24
+TOP 24 87.884 67.818 90 N 29 40 25
+#
+# CMP 23
+CMP 9 98.4504 45.1358 180 N S_PAD12 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 98.4504 45.1358 180 N 23 9 1
+#
+# CMP 24
+CMP 9 98.4504 53.8988 180 N S_PAD11 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 98.4504 53.8988 180 N 29 54 1
+#
+# CMP 25
+CMP 9 98.4504 47.2948 180 N S_PAD10 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 98.4504 47.2948 180 N 23 10 1
+#
+# CMP 26
+CMP 9 98.4504 51.7652 270 N S_PAD9 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 98.4504 51.7652 270 N 29 55 1
+#
+# CMP 27
+CMP 9 59.182 103.378 315 N S_PAD8 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 59.182 103.378 315 N 32 12 1
+#
+# CMP 28
+CMP 9 62.992 99.695 315 N S_PAD7 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 62.992 99.695 315 N 29 56 1
+#
+# CMP 29
+CMP 10 69.85 74.93 270 N S_PAD14 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 69.85 74.93 270 N 29 52 1
+#
+# CMP 30
+CMP 9 65.024 97.79 315 N S_PAD6 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 65.024 97.79 315 N 32 13 1
+#
+# CMP 31
+CMP 9 68.58 94.234 315 N S_PAD5 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 68.58 94.234 315 N 29 57 1
+#
+# CMP 32
+CMP 10 69.85 83.82 270 N S_PAD13 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 69.85 83.82 270 N 30 4 1
+#
+# CMP 33
+CMP 9 59.436 108.204 270 N S_PAD4 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 59.436 108.204 270 N 29 58 1
+#
+# CMP 34
+CMP 10 95.25 52.832 180 N S_PAD16 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 95.25 52.832 180 N 29 53 1
+#
+# CMP 35
+CMP 9 66.802 96.012 315 N S_PAD3 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 66.802 96.012 315 N 9 1 1
+#
+# CMP 36
+CMP 9 60.96 101.6 315 N S_PAD1 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 60.96 101.6 315 N 10 1 1
+#
+# CMP 37
+CMP 10 95.25 46.228 180 N S_PAD15 SOLDER_PAD ;0=1,1=0.0000
+TOP 0 95.25 46.228 180 N 23 8 1
+#
+# CMP 38
+CMP 11 93.93250454 61.976 180 N R9 Resistor ;0=1,1=0.4500
+PRP DTEMP ''
+PRP SimulationGenericComponent 'True'
+PRP T_REL_LOCAL ''
+PRP TC ''
+PRP TC1 '0'
+PRP TC2 '0'
+PRP TEMP ''
+PRP Value '6k'
+TOP 0 94.58250578 61.976 90 N 29 49 1
+TOP 1 93.28250584 61.976 90 N 24 3 2
+#
+# CMP 39
+CMP 11 92.456 101.092 90 N R1 Resistor ;0=1,1=0.4500
+PRP DTEMP ''
+PRP SimulationGenericComponent 'True'
+PRP T_REL_LOCAL ''
+PRP TC ''
+PRP TC1 '0'
+PRP TC2 '0'
+PRP TEMP ''
+PRP Value '470R'
+TOP 0 92.456 101.74200124 0 N 26 3 1
+TOP 1 92.456 100.4420013 0 N 25 2 2
+#
+# CMP 40
+CMP 11 92.71 66.294 180 N R7 Resistor ;0=1,1=0.4500
+PRP DTEMP ''
+PRP SimulationGenericComponent 'True'
+PRP T_REL_LOCAL ''
+PRP TC ''
+PRP TC1 '0'
+PRP TC2 '0'
+PRP TEMP ''
+PRP Value '3.48K'
+TOP 0 93.36000124 66.294 90 N 27 0 1
+TOP 1 92.0600013 66.294 90 N 22 1 2
+#
+# CMP 41
+CMP 11 96.266 102.362 90 N R3 Resistor ;0=1,1=0.4500
+PRP DTEMP ''
+PRP SimulationGenericComponent 'True'
+PRP T_REL_LOCAL ''
+PRP TC ''
+PRP TC1 '0'
+PRP TC2 '0'
+PRP TEMP ''
+PRP Value '360R'
+TOP 0 96.266 103.01200124 0 N 29 28 1
+TOP 1 96.266 101.7120013 0 N 7 1 2
+#
+# CMP 42
+CMP 11 91.186 61.976 180 N R6 Resistor ;0=1,1=0.4500
+PRP DTEMP ''
+PRP SimulationGenericComponent 'True'
+PRP T_REL_LOCAL ''
+PRP TC ''
+PRP TC1 '0'
+PRP TC2 '0'
+PRP TEMP ''
+PRP Value '12k'
+TOP 0 91.83600124 61.976 90 N 24 2 1
+TOP 1 90.5360013 61.976 90 N 23 6 2
+#
+# CMP 43
+CMP 11 80.645 62.23 0 N R4 Resistor ;0=1,1=0.4500
+PRP DTEMP ''
+PRP SimulationGenericComponent 'True'
+PRP T_REL_LOCAL ''
+PRP TC ''
+PRP TC1 '0'
+PRP TC2 '0'
+PRP TEMP ''
+PRP Value '1K'
+TOP 0 79.99499876 62.23 270 N 28 3 1
+TOP 1 81.2949987 62.23 270 N 6 0 2
+#
+# CMP 44
+CMP 14 80.264 68.58 90 N D1 Zener_Diode ;0=1,1=1.3500
+PRP AF '1'
+PRP Area_Factor ''
+PRP BV '100'
+PRP BV_MAX '1e99'
+PRP CJO '0'
+PRP CJP '0'
+PRP CTA '0'
+PRP CTP '0'
+PRP DTEMP ''
+PRP EG '1.11'
+PRP FC '0.5'
+PRP FCS '0.5'
+PRP FV_MAX '1e99'
+PRP IBV '0.001'
+PRP IKF '0'
+PRP IKR '0'
+PRP Initial_Voltage ''
+PRP IS '1e-14'
+PRP ISR '1e-14'
+PRP JSW '0'
+PRP JTUN '0'
+PRP JTUNSW '0'
+PRP KEG '1'
+PRP KF '0'
+PRP L ''
+PRP LEVEL '1'
+PRP M ''
+PRP MJSW '0.33'
+PRP N '1'
+PRP NBV '1'
+PRP NR '1'
+PRP NS '1'
+PRP NTUN '30'
+PRP PHP '1'
+PRP PJ ''
+PRP RS '0'
+PRP SENS_AREA ''
+PRP SimulationGenericComponent 'True'
+PRP Starting_Condition ''
+PRP T_REL_LOCAL ''
+PRP TCV '0'
+PRP Temperature ''
+PRP TLEV '0'
+PRP TLEVC '0'
+PRP TM1 '0'
+PRP TM2 '0'
+PRP TNOM '27'
+PRP TPB '0'
+PRP TPHP '0'
+PRP TRS '0'
+PRP TRS2 '0'
+PRP TT '0'
+PRP TTT1 '0'
+PRP TTT2 '0'
+PRP VJ '1'
+PRP W ''
+PRP XTI '3'
+PRP XTITUN '3'
+TOP 0 80.264 70.27999914 0 N 13 0 1
+TOP 1 80.264 66.87999832 0 N 20 0 2
+#
+# CMP 45
+CMP 1 89.916 93.726 90 N C10 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '100n'
+TOP 0 89.916 94.37600124 90 N 29 24 1
+TOP 1 89.916 93.07599876 90 N 25 1 2
+#
+# CMP 46
+CMP 1 91.948 105.41 0 N C9 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '1u'
+TOP 0 91.29799876 105.41 0 N 29 23 1
+TOP 1 92.59800124 105.41 0 N 26 2 2
+#
+# CMP 47
+CMP 1 91.948 103.886 0 N C8 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '100n'
+TOP 0 91.29799876 103.886 0 N 29 22 1
+TOP 1 92.59800124 103.886 0 N 26 1 2
+#
+# CMP 48
+CMP 1 90.678 101.6 270 N C6 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '100n'
+TOP 0 90.678 100.94999876 270 N 32 7 1
+TOP 1 90.678 102.25000124 270 N 29 25 2
+#
+# CMP 49
+CMP 1 79.502 95.504 180 N C5 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '100n'
+TOP 0 80.15200124 95.504 180 N 32 8 1
+TOP 1 78.85199876 95.504 180 N 29 26 2
+#
+# CMP 50
+CMP 1 88.646 94.996 90 N C3 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '100n'
+TOP 0 88.646 95.64600124 90 N 32 9 1
+TOP 1 88.646 94.34599876 90 N 29 27 2
+#
+# CMP 51
+CMP 1 64.262 105.156 270 N C2 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '10u'
+TOP 0 64.262 104.50599876 270 N 29 29 1
+TOP 1 64.262 105.80600124 270 N 32 10 2
+#
+# CMP 52
+CMP 1 74.168 109.474 0 N C1 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '10u'
+TOP 0 73.51799876 109.474 0 N 29 30 1
+TOP 1 74.81800124 109.474 0 N 31 1 2
+#
+# CMP 53
+CMP 1 87.884 71.882 90 N C27 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '100n'
+TOP 0 87.884 72.53200124 90 N 29 46 1
+TOP 1 87.884 71.23199876 90 N 17 4 2
+#
+# CMP 54
+CMP 1 95.25 65.532 270 N C26 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '1n'
+TOP 0 95.25 64.88199876 270 N 29 48 1
+TOP 1 95.25 66.18200124 270 N 27 1 2
+#
+# CMP 55
+CMP 1 85.598 61.722 90 N C21 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '470n'
+TOP 0 85.598 62.37200124 90 N 12 2 1
+TOP 1 85.598 61.07199876 90 N 23 7 2
+#
+# CMP 56
+CMP 1 96.774 67.818 180 N C19 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '100n'
+TOP 0 97.42400124 67.818 180 N 29 51 1
+TOP 1 96.12399876 67.818 180 N 11 1 2
+#
+# CMP 57
+CMP 1 89.408 71.882 90 N C18 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '100n'
+TOP 0 89.408 72.53200124 90 N 29 34 1
+TOP 1 89.408 71.23199876 90 N 15 0 2
+#
+# CMP 58
+CMP 1 82.804 66.548 180 N C17 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '100n'
+TOP 0 83.45400124 66.548 180 N 28 1 1
+TOP 1 82.15399876 66.548 180 N 20 1 2
+#
+# CMP 59
+CMP 1 83.82 68.834 90 N C16 Capacitor ;0=1,1=0.8900
+PRP CPAR ''
+PRP LSER ''
+PRP RLSHUNT ''
+PRP RPAR ''
+PRP RSER ''
+PRP SimulationGenericComponent 'True'
+PRP TEMP ''
+PRP Value '1u'
+TOP 0 83.82 69.48400124 90 N 29 33 1
+TOP 1 83.82 68.18399876 90 N 13 1 2
+#
+# CMP 60
+CMP 15 84.582 99.568 180 N U2 STM32F103C6T6A ;0=1,1=1.6000
+PRP A/D_Converter '2x12-bit (10 Channel)'
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.st.com/web/en/home.html'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf'
+PRP Core 'ARM Cortex-M3'
+PRP DatasheetVersion 'Rev. 6'
+PRP FLASH_Size_(Prog)_(kB) '32'
+PRP I/Os_(High_Current) '37'
+PRP Internal_RAM_Size_(kB) '10'
+PRP Mounting_Technology 'Surface Mount'
+PRP Operating_Frequency(F)_(Processor_speed)_(MHz) '72'
+PRP PackageDescription '48-Pin Low Profile Quad Flat Package, 7 x 7 mm Body, 0.5 mm Pitch'
+PRP PackageReference 'LQFP48'
+PRP PackageVersion 'Rev. 6, 06/2013'
+PRP Packing 'Tray'
+PRP PartNumber 'STM32F103C6T6A'
+PRP Supply_Voltage(Vcc)_min_(V) '2'
+TOP 0 88.68199942 96.81800042 90 N 32 0 1
+TOP 1 88.68199942 97.31799942 90 N 0 0 2
+TOP 2 88.68199942 97.81800096 90 N 0 1 3
+TOP 3 88.68199942 98.31799996 90 N 0 2 4
+TOP 4 88.68199942 98.8180015 90 N 0 3 5
+TOP 5 88.68199942 99.3180005 90 N 0 4 6
+TOP 6 88.68199942 99.8179995 90 N 0 5 7
+TOP 7 88.68199942 100.31800104 90 N 29 17 8
+TOP 8 88.68199942 100.81800004 90 N 32 1 9
+TOP 9 88.68199942 101.31800158 90 N 0 6 10
+TOP 10 88.68199942 101.81800058 90 N 0 7 11
+TOP 11 88.68199942 102.31799958 90 N 0 8 12
+TOP 12 87.33199958 103.66799942 180 N 3 0 13
+TOP 13 86.83200058 103.66799942 180 N 0 9 14
+TOP 14 86.33199904 103.66799942 180 N 0 10 15
+TOP 15 85.83200004 103.66799942 180 N 4 0 16
+TOP 16 85.3319985 103.66799942 180 N 0 11 17
+TOP 17 84.8319995 103.66799942 180 N 0 12 18
+TOP 18 84.3320005 103.66799942 180 N 0 13 19
+TOP 19 83.83199896 103.66799942 180 N 0 14 20
+TOP 20 83.33199996 103.66799942 180 N 16 0 21
+TOP 21 82.83199842 103.66799942 180 N 21 0 22
+TOP 22 82.33199942 103.66799942 180 N 29 18 23
+TOP 23 81.83200042 103.66799942 180 N 32 2 24
+TOP 24 80.48200058 102.31799958 90 N 0 15 25
+TOP 25 80.48200058 101.81800058 90 N 0 16 26
+TOP 26 80.48200058 101.31800158 90 N 0 17 27
+TOP 27 80.48200058 100.81800004 90 N 0 18 28
+TOP 28 80.48200058 100.31800104 90 N 10 0 29
+TOP 29 80.48200058 99.8179995 90 N 0 19 30
+TOP 30 80.48200058 99.3180005 90 N 9 0 31
+TOP 31 80.48200058 98.8180015 90 N 0 20 32
+TOP 32 80.48200058 98.31799996 90 N 0 21 33
+TOP 33 80.48200058 97.81800096 90 N 2 0 34
+TOP 34 80.48200058 97.31799942 90 N 29 19 35
+TOP 35 80.48200058 96.81800042 90 N 32 3 36
+TOP 36 81.83200042 95.46800058 180 N 1 0 37
+TOP 37 82.33199942 95.46800058 180 N 0 22 38
+TOP 38 82.83199842 95.46800058 180 N 0 23 39
+TOP 39 83.33199996 95.46800058 180 N 0 24 40
+TOP 40 83.83199896 95.46800058 180 N 25 0 41
+TOP 41 84.3320005 95.46800058 180 N 0 25 42
+TOP 42 84.8319995 95.46800058 180 N 0 26 43
+TOP 43 85.3319985 95.46800058 180 N 0 27 44
+TOP 44 85.83200004 95.46800058 180 N 0 28 45
+TOP 45 86.33199904 95.46800058 180 N 0 29 46
+TOP 46 86.83200058 95.46800058 180 N 29 20 47
+TOP 47 87.33199958 95.46800058 180 N 32 4 48
+#
+# CMP 61
+CMP 4 71.628 105.41 180 N U1 AMS1117-3.3 ;0=1,1=1.8000
+PRP Automotive 'No'
+PRP Category 'IC'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.advanced-monolithic.com/pdf/ds1117.pdf'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'Power Management ICs'
+PRP Device_Class_L3 'Voltage Regulators - Linear'
+PRP Dropout_Voltage '1.1V'
+PRP Height '1.8mm'
+PRP Ipc_Land_Pattern_Name 'SOT229P700X180-4'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Advanced Monolithic Systems'
+PRP Manufacturer_Part_Number 'AMS1117-3.3'
+PRP Max_Junction_Temp '+125°C'
+PRP Max_Power_Dissipation '1.2W'
+PRP Max_Supply_Voltage '15V'
+PRP Nominal_Supply_Current '5mA'
+PRP Number_Of_Outputs '1'
+PRP Octopart 'https://octopart.com/ams1117-3.3-advanced+monolithic+systems-25899300'
+PRP Output_Current '1A'
+PRP Output_Type 'Fixed'
+PRP Output_Voltage '3.3V'
+PRP Package 'AMS1117'
+PRP RoHS 'TRUE'
+PRP Standoff_Height '0.64mm'
+PRP Temperature '-40°C to +125°C'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-40°C'
+TOP 0 74.92299976 103.1199995 180 N 29 21 1
+TOP 1 74.92299976 105.41 180 N 32 5 2
+TOP 2 74.92299976 107.7000005 180 N 31 0 3
+TOP 3 68.33300024 105.41 180 N 32 6 4
+#
+# CMP 62
+CMP 6 87.122 57.28200126 270 N R8 T93YB103KT20 ;0=2,1=1.8000
+PRP Composition 'Cermet'
+PRP Depth '5mm'
+PRP Height '9.8044mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '9.7028mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Max_Power_Dissipation '500mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'PCB, Through Hole'
+PRP NexarPartId '39738570'
+PRP Number_of_Turns '21'
+PRP Power_Rating '500mW'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'Unknown'
+PRP Resistance '10kO'
+PRP RoHS 'Compliant'
+PRP Schedule_B '8533400080, 8533400080'
+PRP Taper 'Linear'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'Pin'
+PRP Tolerance '10%'
+PRP Voltage_Rating '250V'
+PRP Voltage_Rating_(DC) '250V'
+PRP Weight '820.009956mg'
+PRP Width '5.0038mm'
+TOP 0 84.582 59.182 270 N 0 38 1
+TOP 1 87.122 56.642 270 N 29 63 2
+TOP 2 89.662 59.182 270 N 24 4 3
+#
+# CMP 63
+CMP 8 94.234 97.282 0 N Q1 BSS806N ;0=1,1=1.1000
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.infineon.com/'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.infineon.com/dgdl/BSS806N_Rev2.3_.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131185f0553451c'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://www.infineon.com/dgdl/SOT23-Package_Overview.pdf?folderId=db3a30431936bc4b0119532290053c66&fileId=db3a30431936bc4b0119533468123c85'
+PRP DatasheetVersion 'Rev. 2.3'
+PRP Green 'TRUE'
+PRP Halogen-free 'TRUE'
+PRP ID_(max) '2.3Â A'
+PRP IDpuls_(max) '9.3Â A'
+PRP Manufacturer 'Infineon'
+PRP Mounting_Technology 'Surface Mount'
+PRP PackageDescription '3-Pin Small Outline Transistor Package, 2.9 x 1.3 mm Body, 0.95 mm Pitch'
+PRP PackageReference 'PG-SOT23'
+PRP PackageVersion 'Apr-08'
+PRP Packing 'Reel'
+PRP PartNumber 'BSS806N'
+PRP Ptot_(max) '0.5Â W'
+PRP QG '1.7Â nC'
+PRP RDS_(on)_(max) '57 mOhm'
+PRP RDS_(on)_(max)_(@1.8V) '82 mOhm'
+PRP RDS_(on)_(max)_(@2.5V) '57 mOhm'
+PRP RthJA_(max) '250 K/W'
+PRP VDS_(max) '20 V'
+PRP VGS(th)_(max) '0.75Â V'
+PRP VGS(th)_(min) '0.3Â V'
+TOP 0 93.03399986 98.23200064 270 N 26 0 1
+TOP 1 93.03399986 96.3320019 270 N 7 0 2
+TOP 2 95.43400014 97.282 270 N 24 0 3
+#
+# CMP 64
+CMP 16 73.39600002 69.342 90 N Q3 STP80NF55-06 ;0=2,1=19.6800
+PRP Category 'PowerMOSFET'
+PRP Channel_Mode 'Enhancement'
+PRP Channel_Type 'N'
+PRP Datasheet_URL 'http://www.st.com/content/ccc/resource/technical/document/datasheet/f1/46/49/9e/39/8f/49/aa/CD00002670.pdf/files/CD00002670.pdf/jcr:content/translations/en.CD00002670.pdf'
+PRP Datasheet_Version 'Rev. 8, 10/2006'
+PRP Dimensions '10.4x4.6x9.15mm'
+PRP Height '9.15mm'
+PRP Length '10.4mm'
+PRP Manufacturer 'STMicroelectronics'
+PRP Manufacturer_URL 'http://www.st.com/'
+PRP Maximum_Continuous_Drain_Current '80A'
+PRP Maximum_Drain_Source_Resistance '0.007O'
+PRP Maximum_Drain_Source_Voltage '55V'
+PRP Maximum_Gate_Source_Voltage '±20V'
+PRP Maximum_Gate_Threshold_Voltage '4V'
+PRP Maximum_Operating_Temperature '+175°C'
+PRP Maximum_Power_Dissipation '300W'
+PRP Minimum_Gate_Threshold_Voltage '2V'
+PRP Minimum_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'ThroughHole'
+PRP Mounting_Type 'ThroughHole'
+PRP Number_of_Elements_per_Chip '1'
+PRP Package_Description '3-Pin Transistor Outline Package, 10.2 x 4.5 mm, Pitch 2.55 mm'
+PRP Package_Reference 'TO-220'
+PRP Package_Type 'TO-220'
+PRP Package_URL 'http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf'
+PRP Pin_Count '3'
+PRP Transistor_Configuration 'Single'
+PRP Transistor_Material 'Si'
+PRP Typical_Gate_Charge_@_Vgs '142nC@10V'
+PRP Typical_Input_Capacitance_@_Vds '4400pF@25V'
+PRP Typical_Turn-Off_Delay_Time '125ns'
+PRP Typical_Turn-On_Delay_Time '27ns'
+PRP Width '4.6mm'
+TOP 0 75.946 69.342 90 N 18 2 1
+TOP 1 73.39600002 69.342 90 N 28 4 2
+TOP 2 70.84600004 69.342 90 N 29 64 3
+#
+# CMP 65
+CMP 16 73.406 64.262 90 N Q2 STP80NF55-06 ;0=2,1=19.6800
+PRP Category 'PowerMOSFET'
+PRP Channel_Mode 'Enhancement'
+PRP Channel_Type 'N'
+PRP Datasheet_URL 'http://www.st.com/content/ccc/resource/technical/document/datasheet/f1/46/49/9e/39/8f/49/aa/CD00002670.pdf/files/CD00002670.pdf/jcr:content/translations/en.CD00002670.pdf'
+PRP Datasheet_Version 'Rev. 8, 10/2006'
+PRP Dimensions '10.4x4.6x9.15mm'
+PRP Height '9.15mm'
+PRP Length '10.4mm'
+PRP Manufacturer 'STMicroelectronics'
+PRP Manufacturer_URL 'http://www.st.com/'
+PRP Maximum_Continuous_Drain_Current '80A'
+PRP Maximum_Drain_Source_Resistance '0.007O'
+PRP Maximum_Drain_Source_Voltage '55V'
+PRP Maximum_Gate_Source_Voltage '±20V'
+PRP Maximum_Gate_Threshold_Voltage '4V'
+PRP Maximum_Operating_Temperature '+175°C'
+PRP Maximum_Power_Dissipation '300W'
+PRP Minimum_Gate_Threshold_Voltage '2V'
+PRP Minimum_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'ThroughHole'
+PRP Mounting_Type 'ThroughHole'
+PRP Number_of_Elements_per_Chip '1'
+PRP Package_Description '3-Pin Transistor Outline Package, 10.2 x 4.5 mm, Pitch 2.55 mm'
+PRP Package_Reference 'TO-220'
+PRP Package_Type 'TO-220'
+PRP Package_URL 'http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf'
+PRP Pin_Count '3'
+PRP Transistor_Configuration 'Single'
+PRP Transistor_Material 'Si'
+PRP Typical_Gate_Charge_@_Vgs '142nC@10V'
+PRP Typical_Input_Capacitance_@_Vds '4400pF@25V'
+PRP Typical_Turn-Off_Delay_Time '125ns'
+PRP Typical_Turn-On_Delay_Time '27ns'
+PRP Width '4.6mm'
+TOP 0 75.95599998 64.262 90 N 19 2 1
+TOP 1 73.406 64.262 90 N 8 3 2
+TOP 2 70.85600002 64.262 90 N 28 5 3
+#

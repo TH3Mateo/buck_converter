@@ -1,0 +1,10 @@
+Add Pin To Net: Unknown Pin: Pin CP1-1
+Add Pin To Net: Unknown Pin: Pin CP4-1
+Added Pin To Net: NetName=NetCP2_1 Pin=U2-34
+Added Net: Name=NetCP2_1
+Added Pin To Net: NetName=NetCP3_1 Pin=U2-37
+Added Net: Name=NetCP3_1
+Add Class Member: Failed to add class member : Component CP1 CONNECT_PAD
+Add Class Member: Failed to add class member : Component CP2 CONNECT_PAD
+Add Class Member: Failed to add class member : Component CP3 CONNECT_PAD
+Add Class Member: Failed to add class member : Component CP4 CONNECT_PAD
