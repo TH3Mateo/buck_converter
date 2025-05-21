@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=NetIC4_3 Pin=IC4-3
+Removed Pin From Net: NetName=NetIC4_3 Pin=IC4-3
+Added Component: Designator=PROG1(programming_pad)
+Added Component: Designator=PROG2(programming_pad)
+Added Pin To Net: NetName=NetC18_2 Pin=IC4-1
+Added Pin To Net: NetName=NetC18_2 Pin=IC4-1
+Added Pin To Net: NetName=GND Pin=IC4-2
+Added Pin To Net: NetName=GND Pin=IC4-3
+Added Pin To Net: NetName=GND Pin=IC4-3
+Added Pin To Net: NetName=NetIC4_3 Pin=IC4-3
+Added Pin To Net: NetName=NetIC4_3 Pin=IC4-3
+Add Pin To Net: Unknown Pin: Pin IC4-4
+Add Pin To Net: Unknown Pin: Pin IC4-5
+Add Pin To Net: Unknown Pin: Pin IC4-6
+Added Pin To Net: NetName=NetCP1_1 Pin=PROG1-1
+Added Pin To Net: NetName=NetCP2_1 Pin=PROG1-2
+Added Pin To Net: NetName=NetCP4_1 Pin=PROG1-3
+Added Pin To Net: NetName=NetCP3_1 Pin=PROG1-4
+Added Pin To Net: NetName=NetCP5_1 Pin=PROG1-5
+Added Pin To Net: NetName=3V3 Pin=PROG2-1
+Added Pin To Net: NetName=GND Pin=PROG2-2
+Added Pin To Net: NetName=SWIO Pin=PROG2-4
+Added Member To Class: ClassName=controller Member=Component PROG1 Component_1
+Added Member To Class: ClassName=controller Member=Component PROG2 Component_1

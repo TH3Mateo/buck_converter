@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetC2_1 Pin=IC3-2
+Removed Pin From Net: NetName=VIN Pin=IC3-3
+Removed Pin From Net: NetName=VIN Pin=IC3-3
+Removed Pin From Net: NetName=GND Pin=IC4-2
+Removed Pin From Net: NetName=NetC2_1 Pin=IC4-3
+Removed Pin From Net: NetName=NetC2_1 Pin=IC4-3
+Added Pin To Net: NetName=VIN Pin=IC3-2
+Added Pin To Net: NetName=NetC2_1 Pin=IC3-3
+Added Pin To Net: NetName=NetC2_1 Pin=IC3-3
+Added Pin To Net: NetName=NetC2_1 Pin=IC4-2
+Added Pin To Net: NetName=GND Pin=IC4-3
+Added Pin To Net: NetName=GND Pin=IC4-3
+Added Member To Class: ClassName=converter Member=Component S_PAD4 SOLDER_PAD

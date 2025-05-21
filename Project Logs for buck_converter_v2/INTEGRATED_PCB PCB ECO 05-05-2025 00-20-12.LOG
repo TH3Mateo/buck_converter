@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=U1 Old Footprint=FP-RGY0024E-MFG New Footprint=FP-RGY0024E-MFG
+Change Component Comment : Designator=U1 Old Comment=LM5148QRGYRQ1 New Comment=
+Change Component Library : Designator=U1 Old Library=Altium Content Vault New Library=lm5148.IntLib
+Change Managed Component Library Link : Designator=U1 Old VaultGUID= New VaultGUID= Old ItemGUID=665C080C-5971-4901-9CEC-9ECC27B9BF6C New ItemGUID= Old RevisionGUID=96981AE3-1423-4F8B-9AD0-BDD119D4550F New RevisionGUID=

@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=VOUT Pin=C6-2
+Change Component Comment : Designator=C6 Old Comment=Capacitor New Comment=150uF
+Change Component Designator: OldDesignator=R? NewDesignator=R16
+Change component parameters: Designator = "C6" ("C6"); Footprint = "CAPAE7266X80M"; UniqueID = "\MXYRBGCO\EAKRMLCL" ("\MXYRBGCO\EAKRMLCL")
+Change component parameters (AddParameter): Name = "Value"; Value = "150uF"; VariantName = "[No Variations]"
+Added Component: Designator=C11(CAPAE7266X80M)
+Add component (AddParameter): Name = "Value"; Value = "150uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VIN Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=VOUT Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR16_1
+Added Member To Class: ClassName=Designator Member=Component C11 150uF
+Add Class Member: Failed to add class member : Component L1 Inductor

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=3V3 Pin=TP1-1
+Removed Pin From Net: NetName=SWIO Pin=TP2-1
+Removed Pin From Net: NetName=GND Pin=TP3-1
+Removed Member From Class: ClassName=controller Member=TP1
+Removed Member From Class: ClassName=controller Member=TP2
+Removed Member From Class: ClassName=controller Member=TP3
+Added Component: Designator=PROG?(PCBComponent_1)
+Add Pin To Net: Unknown Pin: Pin PROG?-1
+Add Pin To Net: Unknown Pin: Pin PROG?-2
+Add Pin To Net: Unknown Pin: Pin PROG?-4
+Added Member To Class: ClassName=controller Member=Component PROG? Component_1

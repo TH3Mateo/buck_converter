@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=NetC18_2 Pin=IC4-1
+Removed Pin From Net: NetName=NetC18_2 Pin=IC4-1
+Removed Pin From Net: NetName=GND Pin=IC4-2
+Removed Pin From Net: NetName=NetIC4_3 Pin=IC4-3
+Removed Pin From Net: NetName=NetIC4_3 Pin=IC4-3
+Removed Member From Class: ClassName=Designator Member=CP2
+Removed Member From Class: ClassName=Designator Member=CP3
+Removed Member From Class: ClassName=Designator Member=CP4
+Removed Member From Class: ClassName=Designator Member=CP5
+Removed Member From Class: ClassName=COMBINED Member=R23
+Change Footprint: Cannot match pads with new footprint in component :PROG1 Footprint:programming_pad
+Change Footprint: Cannot match pads with new footprint in component :PROG2 Footprint:programming_pad
+Added Pin To Net: NetName=NetC18_2 Pin=IC4-1
+Added Pin To Net: NetName=NetC18_2 Pin=IC4-1
+Added Pin To Net: NetName=NetIC4_1 Pin=IC4-1
+Added Pin To Net: NetName=NetIC4_1 Pin=IC4-1
+Added Pin To Net: NetName=GND Pin=IC4-2
+Added Pin To Net: NetName=NetC2_1 Pin=IC4-2
+Added Pin To Net: NetName=GND Pin=IC4-3
+Added Pin To Net: NetName=GND Pin=IC4-3
+Added Pin To Net: NetName=NetIC4_3 Pin=IC4-3
+Added Pin To Net: NetName=NetIC4_3 Pin=IC4-3
+Add Pin To Net: Unknown Pin: Pin IC4-4
+Add Pin To Net: Unknown Pin: Pin IC4-5
+Add Pin To Net: Unknown Pin: Pin IC4-6
+Add Pin To Net: Unknown Pin: Pin PROG1-1
+Add Pin To Net: Unknown Pin: Pin PROG2-1
+Added Member To Class: ClassName=Designator Member=Component C20 Capacitor
+Added Member To Class: ClassName=Designator Member=Component C21 Capacitor
+Added Member To Class: ClassName=Designator Member=Component C25 Capacitor
+Added Member To Class: ClassName=controller Member=Component CP7 CONNECT_PAD
+Added Member To Class: ClassName=controller Member=Component CP9 CONNECT_PAD
+Added Member To Class: ClassName=controller Member=Component CP11 CONNECT_PAD
+Added Member To Class: ClassName=controller Member=Component CP13 CONNECT_PAD
+Added Member To Class: ClassName=controller Member=Component CP15 CONNECT_PAD
+Added Member To Class: ClassName=controller Member=Component CP17 CONNECT_PAD
+Added Member To Class: ClassName=controller Member=Component CP18 CONNECT_PAD
+Added Member To Class: ClassName=Designator Member=Component CP19 CONNECT_PAD
+Added Member To Class: ClassName=Designator Member=Component CP20 CONNECT_PAD
+Added Member To Class: ClassName=Designator Member=Component CP21 CONNECT_PAD
+Added Member To Class: ClassName=Designator Member=Component CP22 CONNECT_PAD
+Added Member To Class: ClassName=COMBINED Member=Component R19 Resistor
+Added Member To Class: ClassName=controller Member=Component R20 Resistor
+Added Member To Class: ClassName=controller Member=Component R21 Resistor
+Added Member To Class: ClassName=controller Member=Component R22 Resistor
+Added Member To Class: ClassName=Designator Member=Component R27 TC33X-2-104E
+Added Member To Class: ClassName=Designator Member=Component R29 Resistor

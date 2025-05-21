@@ -1,0 +1,7 @@
+Added Component: Designator=TP1(ROUND_SMALL)
+Added Component: Designator=TP2(ROUND_SMALL)
+Added Component: Designator=TP3(ROUND_SMALL)
+Added Pin To Net: NetName=3V3 Pin=TP1-1
+Added Pin To Net: NetName=SWIO Pin=TP2-1
+Added Pin To Net: NetName=GND Pin=TP3-1
+Add Class: Class already exists: Designator

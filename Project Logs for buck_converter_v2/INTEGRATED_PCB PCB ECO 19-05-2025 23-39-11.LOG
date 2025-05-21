@@ -1,0 +1,11 @@
+Add Pin To Net: Unknown Pin: Pin PROG1-1
+Add Pin To Net: Unknown Pin: Pin PROG1-2
+Add Pin To Net: Unknown Pin: Pin PROG1-4
+Add Pin To Net: Unknown Pin: Pin PROG2-1
+Add Pin To Net: Unknown Pin: Pin PROG2-2
+Add Pin To Net: Unknown Pin: Pin PROG2-3
+Add Pin To Net: Unknown Pin: Pin PROG2-5
+Added Pin To Net: NetName=NetCP20_1 Pin=CP20-1
+Added Net: Name=NetCP20_1
+Add Class Member: Failed to add class member : Component PROG1 Component_1
+Add Class Member: Failed to add class member : Component PROG2 Component_1

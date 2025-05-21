@@ -1,0 +1,11 @@
+Removed Member From Class: ClassName=controller Member=IC1
+Removed Member From Class: ClassName=Designator Member=IC2
+Added Component: Designator=IC4(SOT95P280X130-6N)
+Added Pin To Net: NetName=NetC18_2 Pin=IC4-1
+Added Pin To Net: NetName=GND Pin=IC4-2
+Added Pin To Net: NetName=NetIC4_3 Pin=IC4-3
+Added Pin To Net: NetName=NetIC4_4 Pin=IC4-4
+Added Pin To Net: NetName=NetC19_2 Pin=IC4-5
+Added Pin To Net: NetName=NetC18_1 Pin=IC4-6
+Added Member To Class: ClassName=controller Member=Component IC3 CH32V003F4U6
+Added Member To Class: ClassName=Designator Member=Component IC4 Component_1

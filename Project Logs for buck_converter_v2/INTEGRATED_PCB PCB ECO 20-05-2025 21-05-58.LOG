@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=NetC18_2 Pin=IC4-1
+Removed Pin From Net: NetName=NetC18_2 Pin=IC4-1
+Removed Pin From Net: NetName=GND Pin=IC4-2
+Removed Pin From Net: NetName=NetIC4_3 Pin=IC4-3
+Removed Pin From Net: NetName=NetIC4_3 Pin=IC4-3
+Removed Member From Class: ClassName=converter Member=IC3
+Change Component Designator: OldDesignator=IC3 NewDesignator=IC1
+Change Component Designator: OldDesignator=IC4 NewDesignator=IC2
+Added Pin To Net: NetName=NetC2_1 Pin=IC2-2
+Added Pin To Net: NetName=GND Pin=IC2-3
+Added Pin To Net: NetName=GND Pin=IC2-3
+Add Pin To Net: Unknown Pin: Pin IC4-1
+Add Pin To Net: Unknown Pin: Pin IC4-2
+Add Pin To Net: Unknown Pin: Pin IC4-3
+Add Pin To Net: Unknown Pin: Pin IC4-4
+Add Pin To Net: Unknown Pin: Pin IC4-5
+Add Pin To Net: Unknown Pin: Pin IC4-6
+Change Net Name : Old Net Name=NetIC3_1 New Net Name=NetIC1_1
+Added Pin To Net: NetName=NetIC2_1 Pin=IC2-1
+Added Pin To Net: NetName=NetIC2_1 Pin=IC2-1
+Added Pin To Net: NetName=NetIC2_1 Pin=U1-11
+Added Net: Name=NetIC2_1
+Added Member To Class: ClassName=converter Member=Component IC1 MOSFET N-CH SOT-23-3

@@ -1,0 +1,13 @@
+
+layout przetwornicy
+prezentacja na opto
+radyjko analogowe
+kompilacja ATXMEGA
+
+
+layout ATXMEGA
+prezentacja na cyber
+ 
+
+
+

@@ -1,0 +1,35 @@
+Added Component: Designator=IC2(QFN40P300X300X80-21N-D)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.lcsc.com/datasheet/lcsc_datasheet_2409280202_WCH-Jiangsu-Qin-Heng-CH32V003F4U6_C5299908.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "WCH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CH32V003F4U6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetCP3_1 Pin=IC2-1
+Added Pin To Net: NetName=NetCP4_1 Pin=IC2-2
+Added Pin To Net: NetName=NetCP6_1 Pin=IC2-3
+Added Pin To Net: NetName=GND Pin=IC2-4
+Added Pin To Net: NetName=NetCP9_1 Pin=IC2-5
+Added Pin To Net: NetName=3V3 Pin=IC2-6
+Added Pin To Net: NetName=NetCP11_1 Pin=IC2-7
+Added Pin To Net: NetName=NetCP13_1 Pin=IC2-8
+Added Pin To Net: NetName=NetCP12_1 Pin=IC2-9
+Added Pin To Net: NetName=VREG_PWM Pin=IC2-10
+Added Pin To Net: NetName=NetCP10_1 Pin=IC2-11
+Added Pin To Net: NetName=NetCP8_1 Pin=IC2-12
+Added Pin To Net: NetName=NetCP7_1 Pin=IC2-13
+Added Pin To Net: NetName=NetCP5_1 Pin=IC2-14
+Added Pin To Net: NetName=SWIO Pin=IC2-15
+Added Pin To Net: NetName=NetCP2_1 Pin=IC2-16
+Added Pin To Net: NetName=LED Pin=IC2-17
+Added Pin To Net: NetName=NetCP1_1 Pin=IC2-18
+Added Pin To Net: NetName=NetIC2_19 Pin=IC2-19
+Added Pin To Net: NetName=NetIC2_20 Pin=IC2-20
+Added Pin To Net: NetName=GND Pin=IC2-21
+Add Pin To Net: Unknown Pin: Pin PROG1-1
+Add Pin To Net: Unknown Pin: Pin PROG1-2
+Add Pin To Net: Unknown Pin: Pin PROG1-4
+Added Member To Class: ClassName=controller Member=Component IC2 CH32V003F4U6
+Add Class Member: Failed to add class member : Component PROG1 Component_1

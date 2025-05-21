@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=NetC1_2 Pin=R16-2
+Added Pin To Net: NetName=VIN Pin=R16-2

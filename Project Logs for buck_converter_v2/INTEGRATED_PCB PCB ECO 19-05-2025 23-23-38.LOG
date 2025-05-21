@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=PROG? NewDesignator=PROG1
+Add Pin To Net: Unknown Pin: Pin PROG1-1
+Add Pin To Net: Unknown Pin: Pin PROG1-2
+Add Pin To Net: Unknown Pin: Pin PROG1-4

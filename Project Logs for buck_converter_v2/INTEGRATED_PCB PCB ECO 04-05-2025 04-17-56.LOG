@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=GND NewDesignator=S_PAD2
+Change Component Designator: OldDesignator=GND NewDesignator=S_PAD4
+Change Component Designator: OldDesignator=VIN NewDesignator=S_PAD1
+Change Component Designator: OldDesignator=VOUT NewDesignator=S_PAD3
+Added Member To Class: ClassName=converter Member=Component S_PAD2 SOLDER_PAD

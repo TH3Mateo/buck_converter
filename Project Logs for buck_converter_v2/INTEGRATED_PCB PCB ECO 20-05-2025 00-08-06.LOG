@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=Designator3-2
+Removed Pin From Net: NetName=SWIO Pin=Designator3-3
+Removed Pin From Net: NetName=3V3 Pin=Designator3-4
+Removed Pin From Net: NetName=GND Pin=Designator4-2
+Removed Pin From Net: NetName=SWIO Pin=Designator4-3
+Removed Pin From Net: NetName=3V3 Pin=Designator4-4
+Added Component: Designator=PROG2(CAP FILM 1206)
+Add Pin To Net: Unknown Pin: Pin PROG1-1
+Add Pin To Net: Unknown Pin: Pin PROG1-2
+Add Pin To Net: Unknown Pin: Pin PROG1-4
+Added Pin To Net: NetName=NetCP18_1 Pin=PROG2-1
+Added Pin To Net: NetName=NetCP19_1 Pin=PROG2-2
+Add Pin To Net: Unknown Pin: Pin PROG2-3
+Add Pin To Net: Unknown Pin: Pin PROG2-4
+Add Pin To Net: Unknown Pin: Pin PROG2-5
+Add Class Member: Failed to add class member : Component PROG1 Component_1
+Added Member To Class: ClassName=controller Member=Component PROG2 Component_1

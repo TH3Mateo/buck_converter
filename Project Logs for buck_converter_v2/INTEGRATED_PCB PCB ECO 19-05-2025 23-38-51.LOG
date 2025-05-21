@@ -1,0 +1,23 @@
+Added Component: Designator=CP18(PAD_SQUARE)
+Added Component: Designator=CP19(PAD_SQUARE)
+Added Component: Designator=CP20(PAD_SQUARE)
+Added Component: Designator=CP21(PAD_SQUARE)
+Added Component: Designator=CP22(PAD_SQUARE)
+Add Pin To Net: Unknown Pin: Pin PROG1-1
+Add Pin To Net: Unknown Pin: Pin PROG1-2
+Add Pin To Net: Unknown Pin: Pin PROG1-4
+Added Pin To Net: NetName=NetCP18_1 Pin=CP18-1
+Added Net: Name=NetCP18_1
+Added Pin To Net: NetName=NetCP19_1 Pin=CP19-1
+Added Net: Name=NetCP19_1
+Added Pin To Net: NetName=NetCP21_1 Pin=CP21-1
+Added Net: Name=NetCP21_1
+Added Pin To Net: NetName=NetCP22_1 Pin=CP22-1
+Added Net: Name=NetCP22_1
+Added Member To Class: ClassName=controller Member=Component CP18 CONNECT_PAD
+Added Member To Class: ClassName=controller Member=Component CP19 CONNECT_PAD
+Added Member To Class: ClassName=controller Member=Component CP20 CONNECT_PAD
+Added Member To Class: ClassName=controller Member=Component CP21 CONNECT_PAD
+Added Member To Class: ClassName=controller Member=Component CP22 CONNECT_PAD
+Add Class Member: Failed to add class member : Component PROG1 Component_1
+Add Class Member: Failed to add class member : Component PROG2 Component_1

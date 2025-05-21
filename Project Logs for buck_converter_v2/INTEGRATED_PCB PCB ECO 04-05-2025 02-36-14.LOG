@@ -1,0 +1,23 @@
+Added Component: Designator=R17(RES 0603_1608)
+Add component (AddParameter): Name = "DTEMP"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SimulationGenericComponent"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "T_REL_LOCAL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TC1"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TC2"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TEMP"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Added Component: Designator=S_PAD5(PAD_SQUARE)
+Added Component: Designator=S_PAD6(PAD_SQUARE)
+Add component: Footprint Not Found PCBComponent_1
+Add component: Footprint Not Found PCBComponent_1
+Add component: Footprint Not Found PCBComponent_1
+Added Pin To Net: NetName=NetC12_2 Pin=R17-1
+Added Pin To Net: NetName=NetC4_1 Pin=R17-2
+Added Pin To Net: NetName=NetC12_2 Pin=S_PAD5-1
+Added Pin To Net: NetName=GND Pin=S_PAD6-1
+Add Pin To Net: Unknown Pin: Pin TP1-1
+Add Pin To Net: Unknown Pin: Pin TP2-1
+Add Pin To Net: Unknown Pin: Pin TP3-1
+Add Class: Class already exists: Designator
+Added Member To Class: ClassName=COMBINED Member=Component R17 Resistor
